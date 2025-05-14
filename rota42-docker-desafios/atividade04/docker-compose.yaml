@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  videoconverter:
+    build: .
+    volumes:
+      - ./videos:/videos  # Monta a pasta vídeos no container
